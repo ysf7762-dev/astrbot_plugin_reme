@@ -1,0 +1,12 @@
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略虚拟环境
+.venv/
+venv/
+
+# 核心：忽略所有用户产生的记忆数据（非常重要！）
+/chroma_db/
+/*/*.md
+!/templates/*.md
