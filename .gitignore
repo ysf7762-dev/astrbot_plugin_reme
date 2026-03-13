@@ -10,3 +10,4 @@ venv/
 /chroma_db/
 /*/*.md
 !/templates/*.md
+personal_notes/
